@@ -1,5 +1,5 @@
 {
-  "name": "node-tms-onconnect",
+  "name": "gracenote-onconnect",
   "description": "A simple wrapper for the Gracenote (formerly TMS) OnConnect API",
   "version": "0.3.0-unstable",
   "author": "methinksnot, Bryan Paronto",
@@ -17,6 +17,6 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/methinksnot/node-tms-onconnect.git"
+    "url": "https://github.com/methinksnot/gracenote-onconnect.git"
   }
 }
