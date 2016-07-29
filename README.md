@@ -3,6 +3,10 @@
 This library is a simple wrapper for the TMS OnConnect API by Gracenote.
 Each method returns a "thenable" object.
 
+## Alert
+
+> These APIs are not yet stable. I expect them to change until this alert is removed. Apologies in advance.
+
 ## Usage
 This library is build on top of Bluebird and uses promises heavily.
 
@@ -25,6 +29,9 @@ api.lineups.find()
 
 ## Implemented:
 
+- Prorgrams
+    - `api.programs`
+        - `.search(query, params)`
 - Lineups
     - `api.lineups`
         - `.find`
