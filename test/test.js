@@ -12,6 +12,6 @@ const conf = require ('./config.json');
 
 var api = new Gn (conf.apiKey);
 
-api.lineups.find ().then (function (resp) {
+api.programs.search ("US of Tara").then (function (resp) {
     console.log (JSON.stringify(resp, null, 2));
 });
