@@ -9,7 +9,7 @@ This library is build on top of Bluebird and uses promises heavily.
 ```javascript
 var api = new Gracenote(api_key);
 
-api.lineups.findLineup().then(function(response){
+api.lineups.find().then(function(response){
     
     //... do something with response.
 
@@ -17,22 +17,39 @@ api.lineups.findLineup().then(function(response){
 
 //or
 
-api.lineups.findLineup()
+api.lineups.find()
     .then(doSometing)
     .then(doSometingElse)
     .then(finallyDoSometing);
 ```
-Implemented:
 
-- Lineups 
+## Implemented:
+
+- Lineups
+    - `api.lineups`
+        - `.find`
+        - `.details`
+        - `.channels`
+        - `.grid`
+- Shows
+    - `api.shows`
+        - `.newTonight`
+        - `.details`
+        - `.airings`
+- Series
+    - `api.series`
+        - `.details`
+        - `.airings`
 - Stations
+    - `api.stations`
+        - `.details`
+        - `.airings`
 
-
-TODO:
+## TODO:
 
 - Public Plan Methods
 - Programs
-- Series
+- Series (episodes)
 - Movies On TV
 - Movies In Theatres
 - Movies Trailers
