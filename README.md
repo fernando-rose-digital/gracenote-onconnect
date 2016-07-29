@@ -1,33 +1,44 @@
-# TMS OnConnect API
+# Gracenote OnConnect API
 
-This library is a simple wrapper for the TMS OnConnect API by Gracenote.
-Each method returns a "thenable" object.
+This library is a simple promise-based wrapper for the Gracenote (formerly TMS) OnConnect API.
 
 ## Alert
 
 > These APIs are not yet stable. I expect them to change until this alert is removed. Apologies in advance.
 
+## References
+
+- TMS Developer site, http://developer.tmsapi.com
+- TMS OnConnect API site, http://developer.tmsapi.com/docs/data_v1_1/
+
 ## Usage
 This library is build on top of Bluebird and uses promises heavily.
 
+### Single Call Example
+
 ```javascript
+const Gracenote = require ("gracenote-onconnect")
 var api = new Gracenote(api_key);
 
-api.lineups.find().then(function(response){
+api.programs.search ("Black").then(function(response){
     
-    //... do something with response.
-
+    // pretty-print the response JSON
+    console.log (JSON.stringify (response, null, 2));
 });
+```
 
-//or
+### Chaining Calls
 
-api.lineups.find()
+```javascript
+
+api.lineups.search ("Blue")
     .then(doSometing)
     .then(doSometingElse)
     .then(finallyDoSometing);
+
 ```
 
-## Implemented:
+## Implemented APIs
 
 - Prorgrams
     - `api.programs`
