@@ -2,3 +2,4 @@ node_modules
 .idea
 test/config.json
 *.log
+.DS_Store
