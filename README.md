@@ -62,6 +62,9 @@ api.lineups.search ("Blue")
     - `api.stations`
         - `.details`
         - `.airings`
+- Movies
+    - `api.movies`
+        - `.showings`
 
 ## TODO:
 
