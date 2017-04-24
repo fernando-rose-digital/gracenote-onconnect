@@ -40,7 +40,7 @@ api.lineups.search ("Blue")
 
 ## Implemented APIs
 
-- Prorgrams
+- Programs
     - `api.programs`
         - `.search(query, params)`
 - Lineups
