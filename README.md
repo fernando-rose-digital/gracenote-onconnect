@@ -40,7 +40,7 @@ api.lineups.search ("Blue")
 
 ## Implemented APIs
 
-- Prorgrams
+- Programs
     - `api.programs`
         - `.search(query, params)`
 - Lineups
@@ -62,6 +62,9 @@ api.lineups.search ("Blue")
     - `api.stations`
         - `.details`
         - `.airings`
+- Movies
+    - `api.movies`
+        - `.showings`
 
 ## TODO:
 
