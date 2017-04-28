@@ -1,7 +1,7 @@
 {
   "name": "gracenote-onconnect",
   "description": "A simple wrapper for the Gracenote (formerly TMS) OnConnect API",
-  "version": "0.3.1-unstable",
+  "version": "0.3.2-unstable",
   "author": "methinksnot, Bryan Paronto",
   "dependencies": {
     "bluebird": "^2.9.33",
