@@ -2,7 +2,7 @@
 
 ### Unstable
 
-0.3.2 - added `movies.showings` API support. (`@mattsmcdaniel`)
+0.3.3 - added `movies.showings` API support. (`@mattsmcdaniel`)
 0.3.1 - removed use of debug module.
 0.3.0 - added program search API. renamed forked module.
 
